@@ -1,0 +1,726 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Om Nayani - Information Technology Student | AI & Data Science Enthusiast showcasing projects and skills">
+    <meta name="keywords"
+        content="portfolio, om nayani, information technology, AI, data science, python, machine learning, opencv, django">
+    <meta name="author" content="Om Nayani">
+    <meta property="og:title" content="Om Nayani - Portfolio">
+    <meta property="og:description"
+        content="Information Technology Student | AI & Data Science Enthusiast | Python Developer">
+    <meta property="og:type" content="website">
+
+    <title>Om Nayani - Portfolio</title>
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <link rel="icon" type="image/svg+xml"
+        href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>💼</text></svg>">
+
+    <!-- Open Graph Meta Tags for Social Sharing -->
+    <meta property="og:image" content="https://via.placeholder.com/1200x630/6366f1/ffffff?text=Portfolio">
+    <meta property="og:url" content="https://yourportfolio.com">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:image" content="https://via.placeholder.com/1200x630/6366f1/ffffff?text=Portfolio">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- AOS Animation Library -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <!-- Typed.js for typing animation -->
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <!-- Navigation -->
+    <nav class="navbar glass" id="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <span class="logo-text">Portfolio</span>
+            </div>
+            <ul class="nav-menu" id="nav-menu">
+                <li class="nav-item">
+                    <a href="#home" class="nav-link active">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#about" class="nav-link">About</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#skills" class="nav-link">Skills</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#projects" class="nav-link">Projects</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#experience" class="nav-link">Experience</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#certifications" class="nav-link">Certifications</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#contact" class="nav-link">Contact</a>
+                </li>
+            </ul>
+            <div class="nav-controls">
+                <button class="theme-toggle" id="theme-toggle" title="Toggle light/dark theme">
+                    <i class="fas fa-moon"></i>
+                </button>
+                <div class="hamburger" id="hamburger">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-background">
+            <div class="floating-shapes">
+                <div class="shape shape-1"></div>
+                <div class="shape shape-2"></div>
+                <div class="shape shape-3"></div>
+                <div class="shape shape-4"></div>
+            </div>
+        </div>
+        <div class="hero-content" data-aos="fade-up">
+            <div class="hero-text">
+                <h1 class="hero-title">
+                    Hi, I'm <span class="highlight" id="typed-name">Om
+                        Nayani</span>
+                </h1>
+                <h2 class="hero-subtitle">
+                    <span id="typed-role"></span>
+                </h2>
+                <p class="hero-description">
+                    Information Technology student at MBIT with a passion
+                    for Artificial Intelligence and Data Science.
+                    Building impactful projects and creating innovative
+                    solutions for real-world problems.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn btn-primary">
+                        <i class="fas fa-code"></i>
+                        View My Work
+                    </a>
+                    <a href="assets\MBIT_IT_NAYANIOMDIPAKBHAI.pdf" download class="btn btn-secondary">
+                        <i class="fas fa-download" aria-hidden="true"></i>
+                        Download Resume
+                    </a>
+                </div>
+            </div>
+            <div class="hero-social">
+                <a href="https://github.com/omnayani33" target="_blank" rel="noopener noreferrer" class="social-link"
+                    title="Visit Om's GitHub Profile">
+                    <i class="fab fa-github" aria-hidden="true"></i>
+                    <span class="sr-only">GitHub Profile</span>
+                </a>
+                <a href="https://www.linkedin.com/in/om-nayani-79b522322/" target="_blank" rel="noopener noreferrer"
+                    class="social-link" title="Connect on LinkedIn">
+                    <i class="fab fa-linkedin" aria-hidden="true"></i>
+                    <span class="sr-only">LinkedIn Profile</span>
+                </a>
+                <a href="tel:+919974175946" class="social-link" title="Call Om Nayani">
+                    <i class="fas fa-phone" aria-hidden="true"></i>
+                    <span class="sr-only">Phone Contact</span>
+                </a>
+                <a href="mailto:omnayani33@gmail.com" class="social-link" title="Send Email to Om">
+                    <i class="fas fa-envelope" aria-hidden="true"></i>
+                    <span class="sr-only">Email Contact</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <h2 class="section-title">About Me</h2>
+                <p class="section-subtitle">Get to know me better</p>
+            </div>
+            <div class="about-content">
+
+                <div class="glass-card">
+                    <h3>Hello! I'm Om Nayani</h3>
+                    <p>
+                        I'm an Information Technology student at MBIT
+                        with a passion for Artificial Intelligence
+                        and Data Science. I enjoy building impactful
+                        projects that solve real-world problems,
+                        with expertise in Python, Django, and machine
+                        learning technologies.
+                    </p>
+                    <p>
+                        Currently pursuing B.Tech at MBIT College, CVMU,
+                        I've built projects like face recognition
+                        attendance systems and leukemia detection using
+                        deep learning. I'm committed to continuous
+                        learning and applying cutting-edge technology to
+                        create meaningful solutions.
+                    </p>
+                </div>
+
+
+            </div>
+        </div>
+        </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section">
+        <div class="container skill-stack-flex">
+            <div class="skill-stack-heading">
+                <span class="skill-stack-skill">skill</span><br>
+                <span class="skill-stack-stack">Stack</span>
+            </div>
+            <div class="skill-stack-grid">
+                <div class="skill-card"><!-- Python -->
+                    <img src="assets/skills/python.svg" alt="Python" class="skill-icon" />
+                    <span>Python</span>
+                </div>
+                <div class="skill-card"><!-- Django -->
+                    <img src="assets/skills/django.svg" alt="Django" class="skill-icon" />
+                    <span>Django</span>
+                </div>
+
+                <div class="skill-card"><!-- Data Science -->
+                    <img src="assets/skills/datascience.svg" alt="Data Science" class="skill-icon" />
+                    <span>Data Science</span>
+                </div>
+                <div class="skill-card"><!-- TensorFlow -->
+                    <img src="assets/skills/tensorflow.svg" alt="TensorFlow" class="skill-icon" />
+                    <span>TensorFlow</span>
+                </div>
+                <div class="skill-card"><!-- NumPy -->
+                    <img src="assets/skills/numpy.svg" alt="NumPy" class="skill-icon" />
+                    <span>NumPy</span>
+                </div>
+                <div class="skill-card"><!-- Pandas -->
+                    <img src="assets/skills/pandas.svg" alt="Pandas" class="skill-icon" />
+                    <span>Pandas</span>
+                </div>
+                <div class="skill-card"><!-- OpenCV -->
+                    <img src="assets/skills/opencv.svg" alt="OpenCV" class="skill-icon" />
+                    <span>OpenCV</span>
+                </div>
+                <div class="skill-card"><!-- C++-->
+                    <img src="assets/skills/c++.svg" alt="C" class="skill-icon" />
+                    <span>C/C++</span>
+                </div>
+                <div class="skill-card"><!-- C -->
+                    <img src="assets/skills/c.svg" alt="C" class="skill-icon" />
+                    <span>C-Graphics</span>
+                </div>
+                <div class="skill-card"><!-- MySQL -->
+                    <img src="assets/skills/mysql.svg" alt="MySQL" class="skill-icon" />
+                    <span>MySQL</span>
+                </div>
+                <div class="skill-card"><!-- JavaScript -->
+                    <img src="assets/skills/javascript.svg" alt="JavaScript" class="skill-icon" />
+                    <span>JavaScript</span>
+                </div>
+
+                <div class="skill-card"><!-- Java -->
+                    <img src="assets/skills/java.svg" alt="Java" class="skill-icon" />
+                    <span>Java</span>
+                </div>
+
+                <div class="skill-card"><!-- HTML -->
+                    <img src="assets/skills/html.svg" alt="HTML" class="skill-icon" />
+                    <span>HTML</span>
+                </div>
+                <div class="skill-card"><!-- CSS -->
+                    <img src="assets/skills/css.svg" alt="CSS" class="skill-icon" />
+                    <span>CSS</span>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <h2 class="section-title">Projects & Research Paper</h2>
+                <p class="section-subtitle">Real projects I've built and
+                    developed</p>
+            </div>
+            <div class="projects-grid">
+                <div class="project-card glass-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="project-image">
+                        <div class="project-image">
+                            <video autoplay muted loop webkit-playsinline class="project-video">
+                                <source src="assets/video/Face_animation.mp4" type="video/mp4" />
+                                Your browser does not support the video tag.
+                            </video>
+
+                        </div>
+                        <div class="project-placeholder">
+                            <i class="fas fa-user-check"></i>
+                        </div>
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="https://github.com/omnayani33/Face_Verification_based_Attendance_system" class="project-link" target="_blank" rel="noopener noreferrer"
+                                    title="View Live Demo">
+                                    <i class="fas fa-external-link-alt" aria-hidden="true"></i>
+                                    <span class="sr-only">View Live
+                                        Demo</span>
+                                </a>
+                                <a href="https://github.com/omnayani33/Face_Verification_based_Attendance_system" class="project-link" target="_blank"
+                                    rel="noopener noreferrer" title="View Source Code">
+                                    <i class="fab fa-github" aria-hidden="true"></i>
+                                    <span class="sr-only">View Source
+                                        Code</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Face Recognition
+                            Attendance System</h3>
+                        <p class="project-description">
+                            A web-based system to automate attendance using
+                            real-time face recognition.
+                            Features secure, proxy-free attendance logging
+                            with image-based verification.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">Django</span>
+                            <span class="tech-tag">OpenCV</span>
+                            <span class="tech-tag">Face Detection</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card glass-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="project-image">
+                        <video autoplay muted loop webkit-playsinline class="project-video">
+                                <source src="assets/video/leukemia.mp4" type="video/mp4" />
+                                Your browser does not support the video tag.
+                            </video>
+                        <div class="project-placeholder">
+                            <i class="fas fa-brain"></i>
+                        </div>
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="https://github.com/omnayani33" class="project-link" target="_blank" rel="noopener noreferrer"
+                                    title="View Live Demo">
+                                    <i class="fas fa-external-link-alt" aria-hidden="true"></i>
+                                    <span class="sr-only">View Live
+                                        Demo</span>
+                                </a>
+                                <a href="https://github.com/omnayani33" class="project-link" target="_blank"
+                                    rel="noopener noreferrer" title="View Source Code">
+                                    <i class="fab fa-github" aria-hidden="true"></i>
+                                    <span class="sr-only">View Source
+                                        Code</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Leukemia Detection Research Paper (In Progress)</h3>
+                        <p class="project-description">
+                           Working on a research paper focused on detecting leukemia from WBC images using image preprocessing and CNN-based deep learning for accurate medical insights.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">TensorFlow</span>
+                            <span class="tech-tag">OpenCV</span>
+                            <span class="tech-tag">Scikit-image</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card glass-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="project-image">
+                            <video autoplay muted loop webkit-playsinline class="project-video">
+                                <source src="assets/video/voice_ass.mp4" type="video/mp4"/>
+                                Your browser does not support the video tag.
+                            </video>
+                        
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="https://github.com/omnayani33" class="project-link" target="_blank" rel="noopener noreferrer"
+                                    title="View Live Demo">
+                                    <i class="fas fa-external-link-alt" aria-hidden="true"></i>
+                                    <span class="sr-only">View Live
+                                        Demo</span>
+                                </a>
+                                <a href="https://github.com/omnayani33" class="project-link" target="_blank"
+                                    rel="noopener noreferrer" title="View Source Code">
+                                    <i class="fab fa-github" aria-hidden="true"></i>
+                                    <span class="sr-only">View Source
+                                        Code</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Desktop Voice
+                            Assistant
+                            (Working)</h3>
+                        <p class="project-description">
+                            A desktop voice assistant capable of executing
+                            system commands,
+                            fetching information, and interacting with files
+                            via speech input.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">Speech Recognition</span>
+                            <span class="tech-tag">System Integration</span>
+                            <span class="tech-tag">Voice Processing</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card glass-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="project-image">
+                        <video autoplay muted loop webkit-playsinline class="project-video">
+                                <source src="assets/video/face_d.mp4" type="video/mp4"/>
+                                Your browser does not support the video tag.
+                            </video>
+                        <div class="project-placeholder">
+                            <i class="fas fa-eye" aria-hidden="true"></i>
+                        </div>
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="https://github.com/omnayani33/Face-Detection-System" class="project-link" target="_blank" rel="noopener noreferrer"
+                                    title="View Live Demo">
+                                    <i class="fas fa-external-link-alt" aria-hidden="true"></i>
+                                    <span class="sr-only">View Live
+                                        Demo</span>
+                                </a>
+                                <a href="https://github.com/omnayani33/Face-Detection-System" class="project-link" target="_blank"
+                                    rel="noopener noreferrer" title="View Source Code">
+                                    <i class="fab fa-github" aria-hidden="true"></i>
+                                    <span class="sr-only">View Source
+                                        Code</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Face Detection System</h3>
+                        <p class="project-description">
+                            Developed a real-time face detection system
+                            using webcam input with OpenCV.
+                            Features accurate face detection and tracking
+                            capabilities for security applications.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">OpenCV</span>
+                            <span class="tech-tag">Real-time
+                                Processing</span>
+                            <span class="tech-tag">Computer Vision</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="section">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <h2 class="section-title">Experience & Education</h2>
+                <p class="section-subtitle">My professional journey</p>
+            </div>
+
+            <div class="timeline">
+                <div class="timeline-item" data-aos="fade-right">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content glass-card">
+                        <div class="timeline-header">
+                            <h3>B.Tech Information Technology</h3>
+                            <span class="timeline-date">2022 - 2026</span>
+                        </div>
+                        <h4>MBIT College, CVMU - Vallabh Vidyanagar</h4>
+                        <p>
+                            Currently pursuing Bachelor of Technology in
+                            Information Technology with focus on
+                            Artificial Intelligence and Data Science.
+                            Building practical projects including
+                            face recognition systems and deep learning
+                            applications.
+                        </p>
+                        <div class="timeline-skills">
+                            <span class="skill-badge">AI & Data
+                                Science</span>
+                            <span class="skill-badge">Python
+                                Programming</span>
+                            <span class="skill-badge">Machine
+                                Learning</span>
+                            <span class="skill-badge">Web Development</span>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="timeline-item" data-aos="fade-left">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content glass-card">
+                        <div class="timeline-header">
+                            <h3>Leadership Roles</h3>
+                            <span class="timeline-date">2022 -
+                                Present</span>
+                        </div>
+                        <h4>MBIT College</h4>
+                        <p>
+                            Actively serving in multiple leadership
+                            positions including AICTE Campus Ambassador,
+                            Training & Placement Core Coordinator, and EDC
+                            Cell Coordinator. Leading initiatives
+                            in career development and entrepreneurship.
+                        </p>
+                        <div class="timeline-skills">
+                            <span class="skill-badge">Leadership</span>
+                            <span class="skill-badge">Team Management</span>
+                            <span class="skill-badge">Event
+                                Coordination</span>
+                            <span class="skill-badge">Communication</span>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Certifications Section -->
+    <section id="certifications" class="section">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <h2 class="section-title">Certifications</h2>
+                <p class="section-subtitle">Professional credentials and
+                    achievements</p>
+            </div>
+            <div class="certifications-grid">
+                <div class="certification-card glass-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="cert-icon">
+  <img src="assets/logo/cvmu.png" alt="CVMU Hackathon Logo" class="cert-logo" />
+</div>
+
+                    <div class="cert-content">
+                        <h3>CVMU HACKTHON</h3>
+
+                        <p class="cert-date">Updated: 2025</p>
+                        <div class="cert-actions">
+                            <a href="assets\CVMU_HACKTHON.jpg" target="_blank" rel="noopener noreferrer"
+                                class="cert-link" title="View Certificate PDF">
+                                <i class="fas fa-eye" aria-hidden="true"></i> View Certificate
+                            </a>
+                            <a href="assets\CVMU_HACKTHON.jpg" download class="cert-link"
+                                title="Download Certificate PDF">
+                                <i class="fas fa-download" aria-hidden="true"></i> Download
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="certification-card glass-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="cert-icon">
+  <img src="assets/logo/daiict.jpeg" alt="DAIICT Hackathon Logo" class="cert-logo" />
+</div>
+
+                    <div class="cert-content">
+                        <h3>DAIICT HACKTHON</h3>
+
+                        <p class="cert-date">Issued: 2025</p>
+                        <div class="cert-actions">
+                            <a href="assets\DAIICT_HACKTHON.pdf" target="_blank" rel="noopener noreferrer"
+                                class="cert-link" title="View Certificate PDF">
+                                <i class="fas fa-eye" aria-hidden="true"></i> View Certificate
+                            </a>
+                            <a href="assets\DAIICT_HACKTHON.pdf" download class="cert-link"
+                                title="Download Certificate PDF">
+                                <i class="fas fa-download" aria-hidden="true"></i> Download
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="certification-card glass-card" data-aos="fade-up" data-aos-delay="300">
+                     <div class="cert-icon">
+  <img src="assets/logo/tryon.jpeg" alt="Tryon Logo" class="cert-logo" />
+</div>
+                    <div class="cert-content">
+                        <h3>INTERNSHIP CERTIFICATE</h3>
+
+                        <p class="cert-date">Issued: 2025</p>
+                        <div class="cert-actions">
+                            <a href="assets\Om_Nayani_Internship_Certificate.pdf" target="_blank"
+                                rel="noopener noreferrer" class="cert-link" title="View Certificate PDF">
+                                <i class="fas fa-eye" aria-hidden="true"></i> View Certificate
+                            </a>
+                            <a href="assets\Om_Nayani_Internship_Certificate.pdf" download class="cert-link"
+                                title="Download Certificate PDF">
+                                <i class="fas fa-download" aria-hidden="true"></i> Download
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <h2 class="section-title">Get In Touch</h2>
+                <p class="section-subtitle">Let's connect and collaborate on
+                    exciting projects</p>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info" data-aos="fade-right">
+                    <div class="glass-card">
+                        <h3>Let's Connect</h3>
+                        <p>
+                            I'm always interested in learning about new
+                            opportunities and
+                            exciting projects in AI and Data Science.
+                            Whether you have a question
+                            or want to collaborate, I'll try my best to get
+                            back to you!
+                        </p>
+                        <div class="contact-details">
+                            <div class="contact-item">
+                                <i class="fas fa-envelope"></i>
+                                <div>
+                                    <span class="contact-label">Email</span>
+                                    <span class="contact-value">omnayani33@gmail.com</span>
+                                </div>
+                            </div>
+                            <div class="contact-item">
+                                <i class="fas fa-phone"></i>
+                                <div>
+                                    <span class="contact-label">Phone</span>
+                                    <span class="contact-value">+91
+                                        9974175946</span>
+                                </div>
+                            </div>
+                            <div class="contact-item">
+                                <i class="fas fa-map-marker-alt"></i>
+                                <div>
+                                    <span class="contact-label">Location</span>
+                                    <span class="contact-value">Bhavnagar,
+                                        Gujarat, India</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="social-links">
+                            <a href="https://github.com/omnayani33" target="_blank" rel="noopener noreferrer"
+                                class="social-link" title="Visit Om's GitHub Profile">
+                                <i class="fab fa-github" aria-hidden="true"></i>
+                                <span class="sr-only">GitHub Profile</span>
+                            </a>
+                            <a href="https://www.linkedin.com/in/om-nayani-79b522322" target="_blank"
+                                rel="noopener noreferrer" class="social-link" title="Connect on LinkedIn">
+                                <i class="fab fa-linkedin" aria-hidden="true"></i>
+                                <span class="sr-only">LinkedIn
+                                    Profile</span>
+                            </a>
+                            <a href="mailto:omnayani33@gmail.com" class="social-link" title="Send Email to Om">
+                                <i class="fas fa-envelope" aria-hidden="true"></i>
+                                <span class="sr-only">Email Contact</span>
+                            </a>
+                            <a href="tel:+919974175946" class="social-link" title="Call Om Nayani">
+                                <i class="fas fa-phone" aria-hidden="true"></i>
+                                <span class="sr-only">Phone Contact</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form" data-aos="fade-left">
+                    <form class="glass-card" id="contact-form">
+                        <div class="form-group">
+                            <label for="name">Full Name</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email Address</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="subject">Subject</label>
+                            <input type="text" id="subject" name="subject" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-full">
+                            <i class="fas fa-paper-plane"></i>
+                            Send Message
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-text">
+                    <p>&copy; 2025 Om Nayani. All rights reserved.</p>
+                </div>
+                
+            </div>
+        </div>
+    </footer>
+
+    <!-- JSON-LD Structured Data for SEO -->
+    <script type="application/ld+json">
+  {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": "Om Nayani",
+      "jobTitle": "Information Technology Student",
+      "description": "Information Technology student at MBIT with a passion for Artificial Intelligence and Data Science.",
+      "url": "https://omnayani-portfolio.com",
+      "sameAs": [
+          "https://github.com/omnayani",
+          "https://www.linkedin.com/in/om-nayani-79b522322"
+      ],
+      "knowsAbout": [
+          "Python Programming",
+          "Machine Learning",
+          "Data Science",
+          "Django",
+          "OpenCV",
+          "TensorFlow"
+      ]
+  }
+  </script>
+
+    <!-- Scripts -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
